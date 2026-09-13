@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class MAthod_2_of_inverted_pattern{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a=n;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=a;j++){
+                System.out.print(" * ");
+            }
+            a--;
+             System.out.println();
+
+        }
+        
+
+    }
+}
