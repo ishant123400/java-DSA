@@ -1,12 +1,12 @@
 package LinkedList;
 import java.util.Scanner;
-// class node{
-//     int val;
-//     node next;
-//     node(int val){
-//         this.val=val;
-//     }
-// }
+class node{
+    int val;
+    node next;
+    node(int val){
+        this.val=val;
+    }
+}
 public class DisplayList {
     public static void display(node head){
          node temp=head;

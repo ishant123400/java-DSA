@@ -1,12 +1,12 @@
 package LinkedList;
 import java.util.Scanner;
-class Node{
-    int val;
-    Node next;
-    Node(int val){
-        this.val=val;
-    }
-}
+// class Node{
+//     int val;
+//     Node next;
+//     Node(int val){
+//         this.val=val;
+//     }
+// }
  class Linkedlist{
     Node head;
     Node tail;

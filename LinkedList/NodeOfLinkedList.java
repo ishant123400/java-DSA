@@ -1,12 +1,12 @@
 package LinkedList;
-class node{
-    int val;
-    node next;
-    node(int val){
-        this.val=val;
-    }
+// class node{
+//     int val;
+//     node next;
+//     node(int val){
+//         this.val=val;
+//     }
   
-}
+// }
 public class NodeOfLinkedList {
     public static void main(String[] args) {
         node a=new node(10);
